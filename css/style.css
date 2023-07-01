@@ -65,7 +65,10 @@ h6 {
 	padding: 0;
 }
 
-body { overflow-x: hidden }
+body { 
+	overflow-x: hidden;
+	width: 100%;
+ }
 
 /* Reset List */
 
@@ -385,9 +388,7 @@ a {
 	flex: 1;
 }
 
-.about_us_about > img + p {
-	text-align: right;
-}
+.about_us_about > img + p {	text-align: right }
 
 .about_us_knife {
 	margin: 2rem 4rem;
@@ -889,6 +890,10 @@ a {
 	.gallery_content { align-items: center }
 
 
+}
+
+@media (max-width: 62.50em) {
+	.about_us_about > img + p { text-align: left }
 }
 
 @media (max-width: 56.25em) {
