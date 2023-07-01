@@ -322,7 +322,7 @@ a {
 	display: none;
 }
 
-.sidepanel.active { transform: translateX(0); z-index: 2; height: auto; display: block }
+.sidepanel.active { transform: translateX(0); z-index: 2; height: auto }
 
 .hamburger-menu i { cursor: pointer }
 
