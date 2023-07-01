@@ -863,6 +863,8 @@ a {
 
 @media (max-width: 81.25em) {
 
+	body { overflow-x: hidden }
+
 	.wrapper { height: 100%; }
 
 	.hamburger-menu { display: flex; justify-content: flex-end; }
