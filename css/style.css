@@ -315,7 +315,7 @@ a {
 	right: 0;
 	top: 60px;
 	background-color: #0c0c0c;
-	height: 100vh;
+	height: auto;
 	z-index: 3;
 	transform: translateX(100%);
 	transition: 300ms;
