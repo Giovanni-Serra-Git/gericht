@@ -68,6 +68,8 @@ h6 {
 body,
 html { 	overflow-x: hidden }
 
+body { position: relative; width: 100%; }
+
 
 /* Reset List */
 
